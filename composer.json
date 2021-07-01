@@ -1,5 +1,5 @@
 {
-    "name": "pusher/pusher-http-laravel",
+    "name": "waggingtail-dev/pusher-http-laravel",
     "description": "[DEPRECATED] A Pusher bridge for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "pusher", "http", "api", "php-pusher-server", "rest", "realtime", "trigger", "publish", "events"],
@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "^5.5|^6.0|^7.0",
-        "illuminate/support": "^5.5|^6.0|^7.0",
+        "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
         "graham-campbell/manager": "^3.0|^4.0",
         "pusher/pusher-php-server": "^3.3|^4.0"
     },
@@ -21,7 +21,7 @@
         "graham-campbell/analyzer": "^2.4",
         "graham-campbell/testbench": "^4.0|^5.0",
         "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^6.5|^7.0|^8.0"
+        "phpunit/phpunit": "^6.5|^7.0|^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
